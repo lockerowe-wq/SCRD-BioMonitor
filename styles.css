@@ -32,9 +32,10 @@ a {
 
 .button-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 12px;
     margin: 20px 0;
+    justify-items: center;
 }
 
 .org-button {
@@ -49,6 +50,10 @@ a {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
 }
 
 .org-button:hover {
