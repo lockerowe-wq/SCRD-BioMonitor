@@ -123,6 +123,10 @@ a {
     transform: translateY(-2px);
 }
 
+h2.section-spaced {
+    margin-top: 50px;
+}
+
 .footer {
     margin-top: 40px;
     padding-top: 20px;
