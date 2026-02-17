@@ -32,10 +32,11 @@ a {
 
 .button-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
     gap: 12px;
     margin: 20px 0;
     justify-items: center;
+    justify-content: center;
 }
 
 .org-button {
