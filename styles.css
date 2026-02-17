@@ -123,11 +123,15 @@ a {
     transform: translateY(-2px);
 }
 
+h2.section-spaced {
+    margin-top: 50px;
+}
+
 .footer {
     margin-top: 40px;
     padding-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     color: #666;
 }
