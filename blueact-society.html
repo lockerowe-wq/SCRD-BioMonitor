@@ -18,7 +18,7 @@
             <li>Herring</li>
             <li>European Green Crabs</li>
         </ul>
-        <p><strong>Education:</strong> Yes. Occasional educational gatherings and a summer camp for children typically occur in any given year. See the website as well as the Tide Pools site for upcoming events.</p>
+        <p><strong>Education:</strong> Yes. Occasional educational gatherings and a summer camp for children typically occur in any given year. See the website as well as the Tide Pools site (<a href="https://www.tidepoolsaquarium.org/">https://www.tidepoolsaquarium.org/</a>) for upcoming events.</p>
         <p><strong>Biomonitoring and Community Science Volunteer Opportunities:</strong> Yes. Contact the Society to determine current opportunities.</p>
         <p>In addition to the monitoring programs, the Society is engaged in several other activities aimed at enhancing biodiversity and its appreciation on the coast, and there are volunteer opportunities in these other programs.</p>
         <p><strong>Website:</strong> <a href="https://www.blueact.org/">https://www.blueact.org/</a><br>
@@ -27,13 +27,32 @@
     </div>
 
     <div class="bottom-buttons">
-        <a href="#" class="bottom-button">Data Repository</a>
+        <a href="#" class="bottom-button" onclick="toggleDataRepo(this); return false;" aria-expanded="false">Data Repository</a>
         <a href="#" class="bottom-button">BioMonitoring Methods</a>
+    </div>
+
+    <div id="data-repo" class="data-section">
+        <h3>Biomonitoring Data</h3>
+        <p>In progress</p>
     </div>
 
     <div class="footer">
         R<sup>2</sup> Foundation
     </div>
+
+    <script>
+        function toggleDataRepo(btn) {
+            const section = document.getElementById('data-repo');
+            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            if (isExpanded) {
+                section.classList.remove('visible');
+                btn.setAttribute('aria-expanded', 'false');
+            } else {
+                section.classList.add('visible');
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        }
+    </script>
 
 </body>
 </html>

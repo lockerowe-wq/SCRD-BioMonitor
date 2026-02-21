@@ -22,13 +22,32 @@
     </div>
 
     <div class="bottom-buttons">
-        <a href="#" class="bottom-button">Data Repository</a>
+        <a href="#" class="bottom-button" onclick="toggleDataRepo(this); return false;" aria-expanded="false">Data Repository</a>
         <a href="#" class="bottom-button">BioMonitoring Methods</a>
+    </div>
+
+    <div id="data-repo" class="data-section">
+        <h3>Biomonitoring Data</h3>
+        <p><strong>Pender Harbour Christmas Bird Count:</strong> Data from these counts are deposited with Birds Canada: <a href="https://www.birdscanada.org/you-can-help/citizen-science">https://www.birdscanada.org/you-can-help/citizen-science</a></p>
     </div>
 
     <div class="footer">
         R<sup>2</sup> Foundation
     </div>
+
+    <script>
+        function toggleDataRepo(btn) {
+            const section = document.getElementById('data-repo');
+            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            if (isExpanded) {
+                section.classList.remove('visible');
+                btn.setAttribute('aria-expanded', 'false');
+            } else {
+                section.classList.add('visible');
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        }
+    </script>
 
 </body>
 </html>
