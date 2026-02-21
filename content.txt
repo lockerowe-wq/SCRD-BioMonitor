@@ -16,6 +16,8 @@ Biomonitoring programs typically deposit data collected as part of the program i
 
 For each organization, there is a “Data Repository” button that gives links to the sites where data are stored and curated for each of their biomonitoring programs. There is also a “BioMonitoring Methods” button where the data collection methods can be found.
 
+In addition, some major Biodiversity Data Repositories in BC can be found here.
+
 
 
 Volunteer and Education Opportunities: Organizations
@@ -414,4 +416,58 @@ Sunshine Coast Wildlife Project
 Biomonitoring data: 
 No known programs:
 
+
+Some major Biodiversity Data Repositories in BC
+
+HabitatWizard: 
+https://maps.gov.bc.ca/ess/hm/habwiz/
+A map-based tool that enables users to spatially access detailed fish, wildlife, and ecosystem information, including survey results. 
+
+EcoCat (Ecological Reports Catalogue)
+https://www2.gov.bc.ca/gov/content/environment/research-monitoring-reporting/libraries-publication-catalogues/ecocat
+This database allows you to search for reports and information regarding freshwater fish inventories and projects. 
+
+Fisheries Inventory Data Queries (FIDQ)
+https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/fish/fish-and-fish-habitat-data-information/search-fish-fish-habitat-data-information/fisheries-inventory-data-queries
+This is the main tool to search for fish and fish habitat data, including results from permitted sampling, fish presence, and species data. 
+
+BC Conservation Data Centre (CDC)
+https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre
+Provincial database of rare and at risk species and ecosystems; underpins the BC Species and Ecosystems Explorer, providing conservation status records for thousands of species and ecological communities in BC.
+
+BC Species and Ecosystems Explorer
+https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre/species-and-ecosystems-explorer
+Web portal built on CDC data that gives public access to species  and ecosystem level conservation information, legal designations, and distribution summaries for BC.
+
+EIRS Biodiversity (Environmental Information Resources System – Biodiversity)
+https://www2.gov.bc.ca/gov/content/environment/research-monitoring-reporting/libraries-publication-catalogues/eirs-biodiversity
+BC government document management system for environmental and natural resource reports, including many biodiversity related studies, habitat assessments, and species monitoring publications.
+
+E Flora BC (Electronic Atlas of the Flora of BC)
+https://www.e flora.bc.ca
+Online atlas of vascular plants, bryophytes, lichens, and fungi in BC, integrating specimen records, maps, and ecological information; hosted at UBC.
+
+E Fauna BC (Electronic Atlas of the Fauna of BC)
+https://www.e fauna.bc.ca
+Complementary to E Flora, this portal provides distribution maps and occurrence data for terrestrial vertebrates, butterflies, and selected invertebrates in BC.
+
+BC BigTree Registry
+https://bigtree.rsl.u¬bc.ca
+Database of the largest known trees by species in BC, maintained by UBC Forestry; used for conservation, education, and tracking notable forest individuals.
+
+Royal BC Museum Collections (Natural History)
+https://www.royalbcmuseum.bc.ca/Natural History
+Natural history collections (plants, animals, fossils) with digitized specimen records and associated biodiversity data relevant to BC.
+
+UBC Sustainability Research & Data Portal (Biodiversity of BC gateway)
+https://sustain.ubc.ca/programs/seeds sustainability program/sustainability research and data portal
+Gateway that links to E Flora BC, E Fauna BC, and other BC focused biodiversity resources, serving as a thematic entry point for provincial biodiversity data.
+
+BC Government Land and Resource Information Systems (LandBC / spatial data)
+https://www2.gov.bc.ca/gov/content/data/geographic data catalogue
+Provincial spatial data infrastructure that includes habitat, land cover, and ecosystem mapping layers used in biodiversity assessments and planning.
+
+Global Biodiversity Information Facility (GBIF) – BC datasets
+https://www.gbif.org
+International biodiversity portal that aggregates occurrence records from many BC based sources (museums, government, NGOs), enabling large scale analysis of BC species distributions.
 
