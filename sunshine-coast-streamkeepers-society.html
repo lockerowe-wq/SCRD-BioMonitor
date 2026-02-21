@@ -27,14 +27,17 @@
     </div>
 
     <div class="bottom-buttons">
-        <a href="#" class="bottom-button" onclick="toggleDataRepo(this); return false;" aria-expanded="false">Data Repository</a>
+        <a href="#" class="bottom-button" onclick="openDataRepo(); return false;">Data Repository</a>
         <a href="#" class="bottom-button">BioMonitoring Methods</a>
     </div>
 
-    <div id="data-repo" class="data-section">
-        <h3>Biomonitoring Data</h3>
+    <div id="data-repo-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeDataRepo()" aria-label="Close">&times;</button>
+            <h3 id="modal-title">Biomonitoring Data</h3>
         <p><strong>Stream temperature:</strong> These data are deposited with <a href="https://pacificdatastream.ca/">Pacific DataStream</a> and can be accessed here: <a href="https://datastream.org/en-ca/dataset/aed02d78-47ab-48f5-920d-0de8f8b55a0f">https://datastream.org/en-ca/dataset/aed02d78-47ab-48f5-920d-0de8f8b55a0f</a></p>
         <p><strong>Salmon counts:</strong> These data can be found on the Society's website: <a href="https://sunshinecoaststreamkeepers.com/spawning-counts-for-creeks/">https://sunshinecoaststreamkeepers.com/spawning-counts-for-creeks/</a>. These data are also deposited in the Pacific Streamkeepers Federation's database and can be accessed here: <a href="https://www.streamkeepers.info/profile.php?user=3035">https://www.streamkeepers.info/profile.php?user=3035</a></p>
+        </div>
     </div>
 
     <div class="footer">
@@ -42,17 +45,20 @@
     </div>
 
     <script>
-        function toggleDataRepo(btn) {
-            const section = document.getElementById('data-repo');
-            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-            if (isExpanded) {
-                section.classList.remove('visible');
-                btn.setAttribute('aria-expanded', 'false');
-            } else {
-                section.classList.add('visible');
-                btn.setAttribute('aria-expanded', 'true');
-            }
+        function openDataRepo() {
+            document.getElementById('data-repo-modal').classList.add('visible');
+            document.body.style.overflow = 'hidden';
         }
+        function closeDataRepo() {
+            document.getElementById('data-repo-modal').classList.remove('visible');
+            document.body.style.overflow = '';
+        }
+        document.getElementById('data-repo-modal').addEventListener('click', function(e) {
+            if (e.target === this) closeDataRepo();
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && document.getElementById('data-repo-modal').classList.contains('visible')) closeDataRepo();
+        });
     </script>
 
 </body>
