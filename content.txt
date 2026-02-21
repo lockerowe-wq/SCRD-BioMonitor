@@ -55,9 +55,9 @@ Biomonitoring and Community Science Volunteer Opportunities: Yes. The Associatio
 
 Hotel Lake Advisory Association
 
-Biomonitoring: Yes. Records activities of fish, birds, aquatic invertebrates and mammals on the lake. Completes extensive water quality monitoring in conjunction with the Ministry of Environment and UBC. 
+Biomonitoring Programs Yes. Records activities of fish, birds, aquatic invertebrates and mammals on the lake. Completes extensive water quality monitoring in conjunction with the Ministry of Environment and UBC. 
 
-Education: No. However, their website is in large part devoted to education about Hotel Lake and related topics.
+Education Programs: No. However, their website is in large part devoted to education about Hotel Lake and related topics.
 
 Biomonitoring and Community Science Volunteer Opportunities: Yes. Contact the association to learn about opportunities.
 
@@ -103,7 +103,7 @@ Biomonitoring Programs: The Society organizes the Pender Harbour Annual Christma
 
 Education Programs: Yes. Occasional educational gatherings, including guest speakers, occur in any given year. See the website for upcoming events.
 
-Biomonitoring and Community Science Volunteer Opportunities: No current programs.
+Biomonitoring and Community Science Volunteer Opportunities: No known current programs.
 
 The Society is engaged in several activities aimed at enhancing biodiversity and its appreciation in the Pender Harbour area, and there are volunteer opportunities in these other programs. Contact the Society to determine current opportunities.
 
@@ -132,15 +132,11 @@ Sunshine Coast Bear Alliance
 
 Our mission “Is to end negative human-bear encounters on our Sunshine Coast by fostering a pragmatic understanding and appreciation of our coast’s bears that will promote a safe and respectful coexistence between our bears, residents and visitors to the community.” (Quoted from the Alliance website) 
 
-Biomonitoring Programs: No
+Biomonitoring Programs: No known current programs.
 
-Education Programs:  Yes; visitor centre information brochures, community presentations and appearances at local farmers markets, and other efforts.
-=======
-Biomonitoring: No
+Education Programs:  Yes; information brochures, community presentations and appearances at local farmers markets, and other efforts.
 
-Education:  Yes; visitor centre information brochures, community presentations and appearances at local farmers markets, and other efforts.
-
-Biomonitoring and Community Science Volunteer Opportunities: No
+Biomonitoring and Community Science Volunteer Opportunities: No.
 
 Website:  https://www.scbearalliance.com/
 Location: Sechelt
@@ -151,9 +147,9 @@ Sunshine Coast Conservation Association
 
 "The Sunshine Coast Conservation Association is a charitable non profit with a 25 year legacy of protecting forests, restoring watersheds, and defending the wild places that make the south coast of British Columbia extraordinary. Our work spans the Sunshine Coast Natural Resource District — 2 million hectares of coastal temperate rainforest and marine ecosystems in the territories of the Sḵwx̱wú7mesh, shíshálh, Tla'amin, Klahoose, and Homalco First Nations. Home to over 60,000 residents from Howe Sound to Homathko." This organization is heavily involved in advocating for the conservation of biodiversity on the Coast. The organization has also led biodiversity related research and inventories. (Quoted from the Association’s website.) 
 
-Biomonitoring: No current programs.
+Biomonitoring programs: No known current programs.
 
-Education: Yes. Educational gatherings occur regularly in any given year. See the website for upcoming events.
+Education Programs: Yes. Educational gatherings occur regularly in any given year. See the website for upcoming events.
 
 Biomonitoring and Community Science Volunteer Opportunities: No current programs.
 
@@ -195,7 +191,7 @@ Sunshine Coast Salmonid Enhancement Society
 
 "The Sunshine Coast Salmonid Enhancement Society is a charitable organization dedicated to sustaining and building salmon stocks in local waterways and facilitating public education regarding salmonid habitat and life cycles. In 1992 the SCSES, with the help of the local community, raised $150,000 to purchase the hatchery. Since that time we have been operating this facility as a community based enhancement hatchery. We work with four species of Pacific salmon to help with the natural production of Chapman Creek." (Quoted from the Society’s website.)
 
-Biomonitoring Programs: No current programs.
+Biomonitoring Programs: No known current programs.
 
 Education Programs: Yes. The Society offers a summer camp for children, focusing on salmon and local natural history.
 
@@ -212,8 +208,6 @@ Sunshine Coast Streamkeepers Society
 Biomonitoring Programs: Yes.
 - Recording creek water and air temperatures
 - Spawning counts
-
-Data from this program is shared with relevant agencies.
 
 Education Programs: No current programs.
 
@@ -419,4 +413,5 @@ Salmon streams: These data can be found on the Society’s website: https://suns
 Sunshine Coast Wildlife Project
 Biomonitoring data: 
 No known programs:
+
 
