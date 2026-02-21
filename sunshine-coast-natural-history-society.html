@@ -21,38 +21,13 @@
     </div>
 
     <div class="bottom-buttons">
-        <a href="#" class="bottom-button" onclick="openDataRepo(); return false;">Data Repository</a>
+        <a href="sunshine-coast-natural-history-society-data-repository.html" class="bottom-button">Data Repository</a>
         <a href="#" class="bottom-button">BioMonitoring Methods</a>
-    </div>
-
-    <div id="data-repo-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeDataRepo()" aria-label="Close">&times;</button>
-            <h3 id="modal-title">Biomonitoring Data</h3>
-        <p><strong>Sunshine Coast Christmas Bird Count:</strong> Data from these annual counts are deposited with Birds Canada: <a href="https://www.birdscanada.org/you-can-help/citizen-science">https://www.birdscanada.org/you-can-help/citizen-science</a></p>
-        </div>
     </div>
 
     <div class="footer">
         R<sup>2</sup> Foundation
     </div>
-
-    <script>
-        function openDataRepo() {
-            document.getElementById('data-repo-modal').classList.add('visible');
-            document.body.style.overflow = 'hidden';
-        }
-        function closeDataRepo() {
-            document.getElementById('data-repo-modal').classList.remove('visible');
-            document.body.style.overflow = '';
-        }
-        document.getElementById('data-repo-modal').addEventListener('click', function(e) {
-            if (e.target === this) closeDataRepo();
-        });
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && document.getElementById('data-repo-modal').classList.contains('visible')) closeDataRepo();
-        });
-    </script>
 
 </body>
 </html>
