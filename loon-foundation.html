@@ -35,13 +35,41 @@
     </div>
 
     <div class="bottom-buttons">
-        <a href="#" class="bottom-button">Data Repository</a>
+        <a href="#" class="bottom-button" onclick="toggleDataRepo(this); return false;" aria-expanded="false">Data Repository</a>
         <a href="#" class="bottom-button">BioMonitoring Methods</a>
+    </div>
+
+    <div id="data-repo" class="data-section">
+        <h3>Biomonitoring Data</h3>
+        <p><strong>Forage fish:</strong> This program is part of the <a href="https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/">Coastal Forage Fish Network</a>. These data are deposited with the Pacific Salmon Foundation and can be accessed at <a href="https://marinedata.psf.ca/knowledge-hubs/forage-fish/">https://marinedata.psf.ca/knowledge-hubs/forage-fish/</a></p>
+        <p><strong>Salmon Escapement Monitoring:</strong> Data shared with Fisheries and Oceans Canada. These data appear in the periodic South Coast Salmon Strait of Georgia Stock Assessment.</p>
+        <p><strong>Seagrass Monitoring:</strong> Data not currently shared.</p>
+        <p><strong>Rocky Intertidal:</strong> Data not currently shared.</p>
+        <p><strong>Pinniped monitoring:</strong> Data not currently shared.</p>
+        <p><strong>Coastal Waterbirds:</strong> Data shared with Bird Studies Canada's <a href="https://naturecounts.ca/nc/bccws/main.jsp?">Nature Counts</a> and eBird.</p>
+        <p><strong>Loon Monitoring:</strong> Data shared with Bird Studies Canada <a href="https://www.birdscanada.org/bird-science/canadian-lakes-loon-survey">Loon Lakes Monitoring Program</a>.</p>
+        <p><strong>Larval Crab Monitoring:</strong> Data shared with the Hakai Institute's <a href="https://sentinels.hakai.org/approaches/light-traps">Sentinels of Change program</a> and the <a href="https://www.pnwcrab.com/larval-crab-monitoring">Pacific Northwest Crab Research Group</a>.</p>
+        <p><strong>Green Crab Monitoring:</strong> Data shared with Fisheries and Oceans Canada.</p>
+        <p><strong>Anderson Creek Water Quality:</strong> Data not currently shared.</p>
     </div>
 
     <div class="footer">
         R<sup>2</sup> Foundation
     </div>
+
+    <script>
+        function toggleDataRepo(btn) {
+            const section = document.getElementById('data-repo');
+            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            if (isExpanded) {
+                section.classList.remove('visible');
+                btn.setAttribute('aria-expanded', 'false');
+            } else {
+                section.classList.add('visible');
+                btn.setAttribute('aria-expanded', 'true');
+            }
+        }
+    </script>
 
 </body>
 </html>
