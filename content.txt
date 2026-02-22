@@ -267,6 +267,8 @@ Forage fish: This program is part of the Coastal Forage Fish Network (https://pr
 
 Salmon Escapement Monitoring: Data shared with Fisheries and Oceans Canada. These data appear in the periodic South Coast Salmon Strait of Georgia Stock Assessment.
 
+Juvenile Salmon Monitoring: These data are shared with Fisheries and Oceans Canada.
+
 Seagrass Monitoring: Data not currently shared. 
 
 Intertidal Macroinvertebrates and Seaweeds monitoring: Data not currently shared. 
@@ -408,21 +410,21 @@ Forage fish: More detail can be found at https://www.loonfoundation.org/cwmp in 
 
 Salmon Escapement Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
-Seagrass Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports. 
+Juvenile Salmon Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
-Rocky Intertidal: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Seagrass Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Intertidal Macroinvertebrates and Seaweeds monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
 Pinniped monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
-Coastal Waterbirds: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Coastal Waterbirds monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
 Loon Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
 Larval Crab Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
-Green Crab Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
-
-Anderson Creek Water Quality - More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Invasive Species Including Europen Green Crab and Clubbed Tunicates: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
 
 Pender Harbour Wildlife Society
 Biomonitoring Methods: 
@@ -473,6 +475,7 @@ Salmon counts: In progress
 Sunshine Coast Wildlife Project
 Biomonitoring Methods: 
 No known current biomonitoring programs:
+
 
 
 
