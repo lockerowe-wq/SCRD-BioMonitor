@@ -335,87 +335,6 @@ No known current biomonitoring programs:
 
 
 
-=======
-BlueAct Society
-Biomonitoring data:
-In progress
-
-The Hotel Lake Advisory Association
-Biomonitoring data:
-
-Hotel Lake monitoring: Much of these data appear on the Association’s website.
-
-The Loon Foundation
-Biomonitoring data: 
-Forage fish: This program is part of the Coastal Forage Fish Network (https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/). These data are deposited with the Pacific Salmon Foundation and can be accessed at https://marinedata.psf.ca/knowledge-hubs/forage-fish/
-
-Salmon Escapement Monitoring: Data shared with Fisheries and Oceans Canada. Access not currently known. 
-
-Seagrass Monitoring: Data not currently shared. 
-
-Rocky Intertidal: Data not currently shared. 
-
-Pinniped monitoring: Data not currently shared. 
-
-Coastal Waterbirds: Data shared with Bird Studies Canada's Nature Counts (https://naturecounts.ca/nc/bccws/main.jsp?) and eBird. https://naturecounts.ca/nc/bccws/main.jsp?
-
-Loon Monitoring: Bird Studies Canada Loon Lakes Monitoring Program
-  https://www.birdscanada.org/bird-science/canadian-lakes-loon-survey
-
-Larval Crab Monitoring: Data shared with the Hakai Institute's Sentinels of Change program and the Pacific Northwest Crab Research Group https://sentinels.hakai.org/approaches/light-traps    https://www.pnwcrab.com/larval-crab-monitoring
-
-Green Crab Monitoring: Data shared with Fisheries and Oceans Canada.
-
-Anderson Creek Water Quality - Data not currently shared. 
-
-Pender Harbour Wildlife Society
-Biomonitoring data: 
-Pender Harbour Christmas Bird Count. Data from these counts is deposited with Birds Canada: https://www.birdscanada.org/you-can-help/citizen-science. 
-
-Sargeant Bay Society
-Biomonitoring data: 
-Salmon counts: In progress
-.
-Sunshine Coast Bear Alliance
-
-Biomonitoring data: 
-No current programs:
-
-
-
-Sunshine Coast Friends of Forage Fish
-Biomonitoring data: 
-Forage Fish: This program is part of the Coastal Forage Fish Network (https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/). These data are deposited with the Pacific Salmon Foundation and can be accessed at https://marinedata.psf.ca/knowledge-hubs/forage-fish/
-
-Sunshine Coast Conservation Association
-Biomonitoring data: 
-No current programs:
-
-Sunshine Coast Natural History Society
-Biomonitoring data: 
-Sunshine Coast Christmas Bird Count: Data from these annual counts is deposited with Birds Canada: https://www.birdscanada.org/you-can-help/citizen-science. 
-
-Sunshine Coast Streamkeepers Society
-Biomonitoring Data: 
-Stream temperature: These data are deposited with Pacific DataStream (https://pacificdatastream.ca/) and can be accessed here: https://datastream.org/en-ca/dataset/aed02d78-47ab-48f5-920d-0de8f8b55a0f
-Salmon streams: These data can be found on the Society’s website: https://sunshinecoaststreamkeepers.com/spawning-counts-for-creeks/. These data are also deposited in in the Pacific Streamkeepers Federations database and can be accessed here: https://www.streamkeepers.info/profile.php?user=3035
-
-
-Sunshine Coast Salmonid Enhancement Society
-Biomonitoring data: 
-No current programs:
-
-
-Sunshine Coast Streamkeepers Society
-Biomonitoring Data: 
-Stream temperature: These data are deposited with Pacific DataStream (https://pacificdatastream.ca/) and can be accessed here: https://datastream.org/en-ca/dataset/aed02d78-47ab-48f5-920d-0de8f8b55a0f
-Salmon streams: These data can be found on the Society’s website: https://sunshinecoaststreamkeepers.com/spawning-counts-for-creeks/. These data are also deposited in in the Pacific Streamkeepers Federations database and can be accessed here: https://www.streamkeepers.info/profile.php?user=3035
-
-
-Sunshine Coast Wildlife Project
-Biomonitoring data: 
-No known programs:
-
 
 Some major Biodiversity Data Repositories in BC
 
@@ -470,4 +389,88 @@ Provincial spatial data infrastructure that includes habitat, land cover, and ec
 Global Biodiversity Information Facility (GBIF) – BC datasets
 https://www.gbif.org
 International biodiversity portal that aggregates occurrence records from many BC based sources (museums, government, NGOs), enabling large scale analysis of BC species distributions.
+
+Methods
+BlueAct Society
+Biomonitoring Methods:
+In progress
+
+The Hotel Lake Advisory Association
+Biomonitoring Methods:
+
+Hotel Lake monitoring: Methods are given on the Association's website, and they closely follow those required for the B.C. Lake Stewardship and Monitoring Program (https://www2.gov.bc.ca/gov/content/environment/research-monitoring-reporting/monitoring/lake-monitoring/bc-lake-stewardship-and-monitoring-program)
+
+The Loon Foundation
+Biomonitoring Methods: 
+Forage fish: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Salmon Escapement Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Seagrass Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports. 
+
+Rocky Intertidal: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Pinniped monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Coastal Waterbirds: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Loon Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Larval Crab Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Green Crab Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Anderson Creek Water Quality - More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+
+Pender Harbour Wildlife Society
+Biomonitoring Methods: 
+Pender Harbour Christmas Bird Count follows those methods outlined by Birds Canada: https://www.birdscanada.org/you-can-help/citizen-science. 
+
+Sargeant Bay Society
+Biomonitoring Methods: 
+Salmon counts: Data shared with Fisheries and Oceans Canada. These data appear in the periodic South Coast Salmon Strait of Georgia Stock Assessment.
+
+Sunshine Coast Bear Alliance
+
+Biomonitoring data: 
+No known current biomonitoring programs:
+
+
+
+Sunshine Coast Friends of Forage Fish
+Biomonitoring data: 
+Forage Fish: This program is part of the Coastal Forage Fish Network (https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/). These data are deposited with the Pacific Salmon Foundation and can be accessed at https://marinedata.psf.ca/knowledge-hubs/forage-fish/
+
+Sunshine Coast Conservation Association
+Biomonitoring data: 
+No known current biomonitoring programs:
+
+Sunshine Coast Natural History Society
+Biomonitoring data: 
+Sunshine Coast Christmas Bird Count: Data from these annual counts are deposited with Birds Canada: https://www.birdscanada.org/you-can-help/citizen-science. 
+
+Sunshine Coast Streamkeepers Society
+Biomonitoring Data: 
+
+Stream temperature: These data are deposited with Pacific DataStream (https://pacificdatastream.ca/) and can be accessed here: https://datastream.org/en-ca/dataset/aed02d78-47ab-48f5-920d-0de8f8b55a0f
+
+Salmon counts: These data can be found on the Society’s website: https://sunshinecoaststreamkeepers.com/spawning-counts-for-creeks/. These data are also deposited in in the Pacific Streamkeepers Federations database and can be accessed here: https://www.streamkeepers.info/profile.php?user=3035
+
+
+Sunshine Coast Salmonid Enhancement Society
+Biomonitoring data: 
+No known current biomonitoring programs:
+
+
+Sunshine Coast Streamkeepers Society
+Biomonitoring Data: 
+Stream temperature: These data are deposited with Pacific DataStream (https://pacificdatastream.ca/) and can be accessed here: https://datastream.org/en-ca/dataset/aed02d78-47ab-48f5-920d-0de8f8b55a0f
+Salmon counts: These data can be found on the Society’s website: https://sunshinecoaststreamkeepers.com/spawning-counts-for-creeks/. These data are also deposited in in the Pacific Streamkeepers Federations database and can be accessed here: https://www.streamkeepers.info/profile.php?user=3035
+
+
+Sunshine Coast Wildlife Project
+Biomonitoring data: 
+No known current biomonitoring programs:
+
+
 
