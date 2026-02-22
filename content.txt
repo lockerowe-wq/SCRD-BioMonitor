@@ -149,11 +149,12 @@ Sunshine Coast Conservation Association
 
 "The Sunshine Coast Conservation Association is a charitable non profit with a 25 year legacy of protecting forests, restoring watersheds, and defending the wild places that make the south coast of British Columbia extraordinary. Our work spans the Sunshine Coast Natural Resource District — 2 million hectares of coastal temperate rainforest and marine ecosystems in the territories of the Sḵwx̱wú7mesh, shíshálh, Tla'amin, Klahoose, and Homalco First Nations. Home to over 60,000 residents from Howe Sound to Homathko." This organization is heavily involved in advocating for the conservation of biodiversity on the Coast. The organization has also led biodiversity related research and inventories. (Quoted from the Association’s website.) 
 
-Biomonitoring programs: No known current programs.
+Biomonitoring programs: Yes.
+- Forage Fish, often in association with Sunshine Coast Friends of Forage Fish
 
 Education Programs: Yes. Educational gatherings occur regularly in any given year. See the website for upcoming events.
 
-Biomonitoring and Community Science Volunteer Opportunities: No current programs.
+Biomonitoring and Community Science Volunteer Opportunities: Yes, contact the Association for current opportunities.
 
 The Association is engaged in several activities aimed at enhancing biodiversity and its appreciation in the Pender Harbour area, and there are volunteer opportunities in these other programs. Contact the Society to determine current opportunities.
 
@@ -165,7 +166,7 @@ Sunshine Coast Friends of Forage Fish
 
 "Our group collects spawning data on the beaches of the Sunshine Coast, British Columbia. By sifting small beach sediment samples, we hope to find forage fish eggs, a sure sign of a positive spawning beach. Our team of dedicated volunteers are sampling every two to four weeks, depending on season, to establish whether or not our beaches are valuable spawning habitats for smelt or sand lance. We are currently sampling a beach in Gibsons and one in Davis Bay." (Quoted from the groups website).
 
-Biomonitoring Programs: The group organizes bi-monthly forage fish monitoring in Gibsons and Davis Bay. 
+Biomonitoring Programs: Yes. The group organizes bi-monthly forage fish monitoring in Gibsons and Davis Bay, often in association with the Sunshine Coast Conservation Association. 
 
 Education Programs: Yes. The group often holds educational sessions about forage fish at community events. Contact info@friendsofforagefish.com for upcoming events.
 
@@ -302,7 +303,7 @@ Forage Fish: This program is part of the Coastal Forage Fish Network (https://pr
 
 Sunshine Coast Conservation Association
 Biomonitoring data: 
-No known current biomonitoring programs:
+Forage Fish: This program is part of the Coastal Forage Fish Network (https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/). These data are deposited with the Pacific Salmon Foundation and can be accessed at https://marinedata.psf.ca/knowledge-hubs/forage-fish/
 
 Sunshine Coast Natural History Society
 Biomonitoring data: 
@@ -472,6 +473,7 @@ Salmon counts: In progress
 Sunshine Coast Wildlife Project
 Biomonitoring Methods: 
 No known current biomonitoring programs:
+
 
 
 
