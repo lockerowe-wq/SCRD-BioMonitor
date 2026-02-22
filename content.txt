@@ -443,22 +443,24 @@ No known current biomonitoring programs:
 
 Sunshine Coast Friends of Forage Fish
 Biomonitoring Methods: 
-Forage Fish: In progress
+Forage Fish: Beach sediment samples are sifted and checked for forage fish eggs including smelt and sand lance. Volunteers aim to sample sites every two to four weeks.
 
 Sunshine Coast Conservation Association
 Biomonitoring Methods: 
-No known current biomonitoring programs:
+Forage Fish: Beach sediment samples are sifted and checked for forage fish eggs including smelt and sand lance. 
 
 Sunshine Coast Natural History Society
 Biomonitoring Methods: 
-Sunshine Coast Christmas Bird Count methods follow those of Birds Canada: https://www.birdscanada.org/you-can-help/citizen-science. 
+Sunshine Coast Christmas Bird Count: methods follow those of Birds Canada: https://www.birdscanada.org/you-can-help/citizen-science. 
 
 Sunshine Coast Streamkeepers Society
 Biomonitoring Methods: 
 
-Stream temperature: In progress
+Stream temperature:
+Data loggers record air and water temperatures in focal streams every hour of every day. Monitored streams include 8 sites on Chapman, Langdale, Malcolm, Roberts and Wilson Creeks.
 
-Salmon counts: In progress
+Salmon counts:
+Volunteers conduct salmon counts in most weeks following the Streamkeepers Handbook, Module 12, Salmonid Salmon Survey (https://www.pskf.ca/mod12/index.php). Focal streams include Chaster, Langdale, Malcolm, Roberts, Angus, Hutchinson, Ouillet, Stephens and Twin Creeks.
 
 
 Sunshine Coast Salmonid Enhancement Society
@@ -466,15 +468,10 @@ Biomonitoring Methods:
 No known current biomonitoring programs:
 
 
-Sunshine Coast Streamkeepers Society
-Biomonitoring Methods: 
-Stream temperature: In progress
-Salmon counts: In progress
-
-
 Sunshine Coast Wildlife Project
 Biomonitoring Methods: 
 No known current biomonitoring programs:
+
 
 
 
