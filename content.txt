@@ -388,25 +388,25 @@ Hotel Lake monitoring: Methods are given on the Association's website, and they 
 
 The Loon Foundation
 Biomonitoring Methods: 
-Forage fish: At the core sites (Baker Beach, Martin Cove, Vaucroft I and Vaucroft II) 4L pails of beach sand at 2 sites along a 30m transect. Content is sifted and vortexed, then examined in the lab for eggs. These core sites are sampled regularly between mid-October to mid-January. 15 other sites are sampled less frequently. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Forage fish: At the core sites (Baker Beach, Martin Cove, Vaucroft I and Vaucroft II) 4L pails of beach sand at 2 sites along a 30m transect. Content is sifted and vortexed, then examined in the lab for eggs. These core sites are sampled regularly between mid-October to mid-January. 15 other sites are sampled less frequently. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Salmon Escapement Monitoring: Surveys are conducted every 7-10 days by volunteers counting saalmon while walking the stream. At times divers will also participate. Myers and Anderson Creeks along with their tributaries Meadow and Coho Creeks are sampled. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Salmon Escapement Monitoring: Surveys are conducted every 7-10 days by volunteers counting saalmon while walking the stream. At times divers will also participate. Myers and Anderson Creeks along with their tributaries Meadow and Coho Creeks are sampled. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Juvenile Salmon Monitoring: Surveys are conducted weekly from early March to mid-September at two sites at Irvines landing and Gerrans Bay. A 30m seine net is towed toward the shore and captured slamon are ID'd, counted, measured, and checked for lamprey marks and ectoparasites. By catch is also ID'd and counted. Other More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Juvenile Salmon Monitoring: Surveys are conducted weekly from early March to mid-September at two sites at Irvines landing and Gerrans Bay. A 30m seine net is towed toward the shore and captured slamon are ID'd, counted, measured, and checked for lamprey marks and ectoparasites. By catch is also ID'd and counted. Other More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Seagrass Monitoring: Surveys occur throughtout Pender Harbour and around Thormanby Island. Observerss in boats, kayaks and paddle boards conduct exploratory surveys and map eelgrass beds with GPS. Beds are then randomly sampled to calculate Leaf Area Index, which can be used with bed area to track health of the bed. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Seagrass Monitoring: Surveys occur throughtout Pender Harbour and around Thormanby Island. Observerss in boats, kayaks and paddle boards conduct exploratory surveys and map eelgrass beds with GPS. Beds are then randomly sampled to calculate Leaf Area Index, which can be used with bed area to track health of the bed. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Intertidal Macroinvertebrates and Seaweeds monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Intertidal Macroinvertebrates and Seaweeds monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Pinniped monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Pinniped monitoring: Surveys of the Hodgson Islands are conducted. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Coastal Waterbirds monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Coastal Waterbirds monitoring: Outer Pender Harbour and the Skarden Islands are surveyed monthly by boat by observers. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Loon Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Loon Monitoring: Surveys are conducted in 8 lakes in the Pender Harbour region (Garden Bay, Mixal, Lillies, Hotel, Klein, Waugh, North and MacNeil). Volunteers document territorial pairs, nesting pairs, successful hatches and survival to 6 weeks. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Larval Crab Monitoring: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Larval Crab Monitoring: Surveys occur most nights at Irvines Landing employing a light trap between April and Septemnber. More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
-Invasive Species Including Europen Green Crab and Clubbed Tunicates: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring reports.
+Invasive Species Including Europen Green Crab and Clubbed Tunicates: More detail can be found at https://www.loonfoundation.org/cwmp in their Biomonitoring Reports.
 
 Pender Harbour Wildlife Society
 Biomonitoring Methods: 
@@ -453,6 +453,7 @@ No known current biomonitoring programs:
 Sunshine Coast Wildlife Project
 Biomonitoring Methods: 
 No known current biomonitoring programs:
+
 
 
 
