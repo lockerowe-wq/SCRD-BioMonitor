@@ -77,15 +77,15 @@ Loon Foundation
 Biomonitoring Programs: Yes, there are several biomonitoring and community science programs.
 - Forage fish
 - Seagrass
-- Invasive species
+- Invasive species including european green crab and clubbed tunicates
 - Pinnipeds
 - Salmonid escapement
-- Juvenile escapement
-- Larval crabs
+- Juvenile salmon
 - Coastal water nearshore birds
 - Loons
+- Intertidal macroinvertebrates and seaweeds
 
-The Foundation also organizes an annual BioBlitz, and findings are recorded on iNaturalist. Recently the Foundation has teamed with the Sunshine Coast Conservation Association to organize the BioBlitz.
+The Foundation also organizes an annual BioBlitz, and findings are recorded on iNaturalist. Recently the Foundation has teamed with the Sunshine Coast Conservation Association to organize this BioBlitz.
 
 Education Programs: Yes. Occasional educational gatherings and a summer camp for children typically occur in any given year. See the website for upcoming events.
 
@@ -269,7 +269,7 @@ Salmon Escapement Monitoring: Data shared with Fisheries and Oceans Canada. Thes
 
 Seagrass Monitoring: Data not currently shared. 
 
-Rocky Intertidal: Data not currently shared. 
+Intertidal Macroinvertebrates and Seaweeds monitoring: Data not currently shared. 
 
 Pinniped monitoring: Data not currently shared. 
 
@@ -278,11 +278,9 @@ Coastal Waterbirds: Data shared with Bird Studies Canada's Nature Counts (https
 Loon Monitoring: Data shared with Bird Studies Canada Loon Lakes Monitoring Program
   https://www.birdscanada.org/bird-science/canadian-lakes-loon-survey
 
-Larval Crab Monitoring: Data shared with the Hakai Institute's Sentinels of Change program https://sentinels.hakai.org/approaches/light-traps and the Pacific Northwest Crab Research Group https://www.pnwcrab.com/larval-crab-monitoring
+Larval Crab Monitoring: Data shared with the Hakai Institute's Sentinels of Change program https://sentinels.hakai.org/approaches/light-traps and the Pacific Northwest Crab Research Group https://www.pnwcrab.com/larval-crab-monitoring. 
 
-Green Crab Monitoring: Data shared with Fisheries and Oceans Canada.
-
-Anderson Creek Water Quality - Data not currently shared. 
+Invasive Species Including Europen Green Crab and Clubbed Tunicates: Data shared with Fisheries and Oceans Canada.
 
 Pender Harbour Wildlife Society
 Biomonitoring data: 
@@ -475,6 +473,7 @@ Salmon counts: In progress
 Sunshine Coast Wildlife Project
 Biomonitoring Methods: 
 No known current biomonitoring programs:
+
 
 
 
