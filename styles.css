@@ -84,7 +84,7 @@ a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.35;
+    opacity: 0.55;
 }
 
 .hero-content {
@@ -178,8 +178,9 @@ h2.section-spaced {
 
 /* ===== ORG BUTTON GRID ===== */
 .button-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 14px;
     margin: 4px 0 24px;
 }
@@ -201,6 +202,7 @@ h2.section-spaced {
     align-items: center;
     justify-content: center;
     min-height: 70px;
+    width: 195px;
 }
 
 .org-button:hover {
