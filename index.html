@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biomonitoring and Community Science on the Sunshine Coast</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .hidden-text {
-            display: none;
-        }
-        .more-link {
-            color: #008080;
-            cursor: pointer;
-            text-decoration: underline;
-            font-weight: bold;
-        }
-        .more-link:hover {
-            color: #006666;
-        }
-    </style>
 </head>
 <body>
-    <img src="homepage_header.png" alt="Header image" class="header-image">
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">🌿 SC BioMonitor</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#organizations">Organizations</a>
+                <a href="bc-biodiversity-data-repositories.html">BC Data Repositories</a>
+            </div>
+        </div>
+    </nav>
 
-    <h1>Biomonitoring and Community Science on the Sunshine Coast</h1>
+    <div class="hero">
+        <img src="homepage_header.png" alt="Sunshine Coast landscape" class="hero-img">
+        <div class="hero-content">
+            <h1>Biomonitoring and Community Science on the Sunshine Coast</h1>
+            <p class="hero-sub">Connecting people, science, and nature across 180 km of BC's southwest coast.</p>
+        </div>
+    </div>
+
+    <main class="page-wrap">
 
     <p>The Sunshine Coast in British Columbia is an 180 km stretch of rugged maritime landscape along the mainland's southwest coast, nestled between Howe Sound and Desolation Sound. This region includes or overlaps with the unceded territories of the Sḵwx̱wú7mesh, shíshálh, Tla'amin, Klahoose, and Homalco First Nations.</p>
 
@@ -35,7 +38,7 @@
 
     <p>All of the organizations highlighted here are engaged in much more than biomonitoring, community science, and education. Their activities range from beach clean ups to political advocacy for conservation, and building fish ladders to entire biodiversity dedicated facilities. There are many opportunities for community members to be involved in these activities. Go to their websites to see their remarkable and sustained community based work for nature.</p>
 
-    <h2>Volunteer and Education Opportunities: Organizations</h2>
+    <h2 id="organizations">Volunteer and Education Opportunities: Organizations</h2>
 
     <div class="button-grid">
         <a href="blueact-society.html" class="org-button">BlueAct Society</a>
@@ -69,9 +72,22 @@
         <li><strong>Birds Canada</strong> (<a href="https://www.birdscanada.org/you-can-help/citizen-science">https://www.birdscanada.org/you-can-help/citizen-science</a>): Birds Canada offers diverse volunteer community science opportunities. These range from monitoring nest success and counting birds in winter to surveying nocturnal species and mapping breeding populations.</li>
     </ul>
 
-    <div class="footer">
-        R<sup>2</sup> Foundation
-    </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand-block">
+                <div class="footer-name">🌿 SC BioMonitor</div>
+                <div class="footer-tagline">Biomonitoring &amp; Community Science on the Sunshine Coast, BC</div>
+            </div>
+            <nav class="footer-nav-block">
+                <a href="index.html">Home</a>
+                <a href="index.html#organizations">Organizations</a>
+                <a href="bc-biodiversity-data-repositories.html">BC Data Repositories</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">R<sup>2</sup> Foundation</div>
+    </footer>
 
     <script>
         function toggleText(link) {
