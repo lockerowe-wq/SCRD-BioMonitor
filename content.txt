@@ -248,7 +248,7 @@ Hotel Lake monitoring: Much of these data appear on the Association’s website 
 
 The Loon Foundation
 Biomonitoring data: 
-Forage fish: This program is part of the Coastal Forage Fish Network (https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/). These data are deposited with the Pacific Salmon Foundation and can be accessed at https://marinedata.psf.ca/knowledge-hubs/forage-fish/
+Forage fish: This program is part of the Coastal Forage Fish Network (https://projectwatershed.ca/2024/02/12/coastal-forage-fish-network/). These data are deposited with the Pacific Salmon Foundation and can be accessed at https://soggy2.zoology.ubc.ca/geonetwork/srv/eng/catalog.search#/metadata/904a8e86-7992-424a-9b68-40906852f4e9
 
 Salmon Escapement Monitoring: Data shared with Fisheries and Oceans Canada. These data appear in the periodic South Coast Salmon Strait of Georgia Stock Assessment.
 
