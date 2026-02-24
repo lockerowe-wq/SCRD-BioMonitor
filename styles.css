@@ -267,19 +267,50 @@ h2.section-spaced {
 }
 
 /* ===== (MORE)/(LESS) TOGGLES ===== */
-.hidden-text {
-    display: none;
-}
-
-.more-link {
+.more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 8px 0 4px;
+    padding: 6px 14px;
+    background-color: #fff;
     color: #007a7a;
+    border: 1.5px solid #007a7a;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: inherit;
     cursor: pointer;
-    text-decoration: underline;
-    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
 }
 
-.more-link:hover {
-    color: #005f5f;
+.more-btn:hover {
+    background-color: #007a7a;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 95, 95, 0.18);
+}
+
+.more-btn .more-btn-arrow {
+    font-size: 0.75em;
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+.more-btn[aria-expanded="true"] .more-btn-arrow {
+    transform: rotate(180deg);
+}
+
+.more-panel {
+    display: none;
+    background: #f0f7f4;
+    border: 1.5px solid #b2d8c8;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin: 4px 0 14px;
+}
+
+.more-panel.visible {
+    display: block;
 }
 
 /* ===== FOOTER ===== */
