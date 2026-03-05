@@ -72,6 +72,7 @@ a:hover {
 .hero {
     position: relative;
     overflow: hidden;
+    max-height: 295px;
     background: linear-gradient(160deg, #005e58 0%, #00796c 40%, #2c7948 100%);
 }
 
@@ -84,14 +85,14 @@ a:hover {
 
 .hero-content {
     position: absolute;
-    bottom: 0;
+    bottom: 14px;
     left: 0;
     right: 0;
     z-index: 1;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 44px 28px 40px;
+    padding: 44px 28px 30px;
 }
 
 .hero-content h1 {
