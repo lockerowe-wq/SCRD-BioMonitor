@@ -73,27 +73,24 @@ a:hover {
     position: relative;
     overflow: hidden;
     background: linear-gradient(160deg, #005e58 0%, #00796c 40%, #2c7948 100%);
-    min-height: 300px;
-    display: flex;
-    align-items: flex-end;
 }
 
 .hero-img {
-    position: absolute;
-    inset: 0;
+    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
+    height: auto;
     opacity: 0.55;
 }
 
 .hero-content {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     z-index: 1;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%;
     padding: 44px 28px 40px;
 }
 
