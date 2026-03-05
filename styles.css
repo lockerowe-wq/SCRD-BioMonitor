@@ -79,7 +79,9 @@ a:hover {
 .hero-img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 295px;
+    object-fit: cover;
+    object-position: center bottom;
     opacity: 0.55;
 }
 
