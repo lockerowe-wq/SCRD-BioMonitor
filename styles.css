@@ -420,10 +420,7 @@ h2.section-spaced {
     border-radius: 8px;
     padding: 18px 20px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
-    border-top: 3px solid #b2d8c8;
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
+    border-left: 4px solid #b2d8c8;
     transition: box-shadow 0.2s, transform 0.2s;
 }
 
@@ -433,17 +430,25 @@ h2.section-spaced {
 }
 
 .guide-card--featured {
-    border-top-color: #008888;
-}
-
-.guide-card-icon {
-    font-size: 1.6rem;
-    line-height: 1;
-    flex-shrink: 0;
+    border-left-color: #008888;
 }
 
 .guide-card-body {
     min-width: 0;
+}
+
+.guide-card-category {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #008888;
+    margin-bottom: 7px;
+}
+
+.guide-card--featured .guide-card-category {
+    color: #006e6e;
 }
 
 .guide-card-title {
