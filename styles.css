@@ -403,6 +403,69 @@ h2.section-spaced {
     font-style: italic;
 }
 
+/* ===== GUIDE CARDS (natural-history.html) ===== */
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 16px;
+    margin: 16px 0 32px;
+}
+
+.guide-grid--featured {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.guide-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 18px 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+    border-top: 3px solid #b2d8c8;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.guide-card:hover {
+    box-shadow: 0 4px 14px rgba(0, 110, 110, 0.14);
+    transform: translateY(-2px);
+}
+
+.guide-card--featured {
+    border-top-color: #008888;
+}
+
+.guide-card-icon {
+    font-size: 1.6rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.guide-card-body {
+    min-width: 0;
+}
+
+.guide-card-title {
+    font-weight: 700;
+    color: #004f4f;
+    font-size: 0.97rem;
+    margin-bottom: 4px;
+}
+
+.guide-card-authors {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.guide-card-desc {
+    font-size: 0.87rem;
+    color: #555;
+    line-height: 1.5;
+}
+
 /* ===== FOOTER ===== */
 .site-footer {
     background: linear-gradient(135deg, #006e6e 0%, #008888 60%, #3c8858 100%);
