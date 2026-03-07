@@ -314,6 +314,163 @@ h2.section-spaced {
     display: block;
 }
 
+/* ===== RESEARCH STORY CARD ===== */
+.story-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 28px 32px 24px;
+    margin: 20px 0 32px;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.09);
+    border-top: 4px solid #008888;
+}
+
+.story-label {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #008888;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.story-card h2 {
+    border-bottom: none;
+    margin-top: 6px;
+    margin-bottom: 14px;
+    font-size: 1.55rem;
+    color: #004f4f;
+    padding-bottom: 0;
+}
+
+.story-lead {
+    font-size: 1.05rem;
+    color: #4a4a4a;
+    font-style: italic;
+    border-left: 3px solid #008888;
+    padding-left: 14px;
+    margin: 0 0 20px;
+    line-height: 1.75;
+}
+
+.story-figure {
+    margin: 24px auto;
+    max-width: 680px;
+}
+
+.story-figure img {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #dde8e4;
+}
+
+.story-figure figcaption {
+    font-size: 0.82rem;
+    color: #666;
+    margin-top: 8px;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+}
+
+.key-finding {
+    background: #eaf5ef;
+    border-left: 4px solid #2e8b57;
+    border-radius: 0 6px 6px 0;
+    padding: 14px 18px;
+    margin: 24px 0 20px;
+}
+
+.key-finding strong.key-finding-label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    color: #2e8b57;
+    margin-bottom: 6px;
+}
+
+.story-reference {
+    border-top: 1px solid #dde8e4;
+    margin-top: 22px;
+    padding-top: 12px;
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* ===== GUIDE CARDS (natural-history.html) ===== */
+.guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 16px;
+    margin: 16px 0 32px;
+}
+
+.guide-grid--featured {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+}
+
+.guide-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 18px 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+    border-left: 4px solid #b2d8c8;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.guide-card:hover {
+    box-shadow: 0 4px 14px rgba(0, 110, 110, 0.14);
+    transform: translateY(-2px);
+}
+
+.guide-card--featured {
+    border-left-color: #008888;
+}
+
+.guide-card-body {
+    min-width: 0;
+}
+
+.guide-card-category {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #008888;
+    margin-bottom: 7px;
+}
+
+.guide-card--featured .guide-card-category {
+    color: #006e6e;
+}
+
+.guide-card-title {
+    font-weight: 700;
+    color: #004f4f;
+    font-size: 0.97rem;
+    margin-bottom: 4px;
+}
+
+.guide-card-authors {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.guide-card-desc {
+    font-size: 0.87rem;
+    color: #555;
+    line-height: 1.5;
+}
+
 /* ===== FOOTER ===== */
 .site-footer {
     background: linear-gradient(135deg, #006e6e 0%, #008888 60%, #3c8858 100%);
