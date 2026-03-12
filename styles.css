@@ -553,3 +553,107 @@ h2.section-spaced {
     color: #fff;
 }
 
+/* ===== CONTACT PAGE ===== */
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 40px;
+    align-items: start;
+    margin-top: 24px;
+}
+
+@media (max-width: 700px) {
+    .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+.contact-info {
+    background: #fff;
+    border-radius: 8px;
+    padding: 24px 26px;
+    border-left: 4px solid #2e8b57;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+}
+
+.contact-info h2 {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.contact-info p {
+    color: #555;
+    font-size: 0.97rem;
+}
+
+.contact-form-wrap {
+    background: #fff;
+    border-radius: 8px;
+    padding: 28px 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.07);
+    border-left: 4px solid #008888;
+}
+
+.contact-form .form-group {
+    margin-bottom: 18px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 13px;
+    border: 1.5px solid #b2d8c8;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: #333;
+    background: #fafffe;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #008888;
+    box-shadow: 0 0 0 3px rgba(0, 136, 136, 0.12);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 130px;
+    line-height: 1.6;
+}
+
+.contact-submit {
+    display: inline-block;
+    background-color: #008888;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 28px;
+    font-family: inherit;
+    font-size: 0.97rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.contact-submit:hover {
+    background-color: #006e6e;
+    box-shadow: 0 4px 12px rgba(0, 110, 110, 0.22);
+    transform: translateY(-2px);
+}
+
