@@ -534,6 +534,10 @@ h2.section-spaced {
     color: #fff;
 }
 
+.footer-nav-block a:last-child {
+    grid-column: 2;
+}
+
 .footer-bottom {
     max-width: 1200px;
     margin: 20px auto 0;
@@ -551,6 +555,7 @@ h2.section-spaced {
     text-decoration: none;
     font-size: 0.8rem;
     transition: color 0.2s;
+    margin-top: auto;
 }
 
 .footer-contact-link:hover {
