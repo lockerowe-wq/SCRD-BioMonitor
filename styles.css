@@ -484,9 +484,15 @@ h2.section-spaced {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 32px;
     flex-wrap: wrap;
+}
+
+.footer-brand-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer-name {
@@ -527,7 +533,7 @@ h2.section-spaced {
     padding-top: 14px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
