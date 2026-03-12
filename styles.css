@@ -492,7 +492,8 @@ h2.section-spaced {
 .footer-brand-block {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 5px;
 }
 
 .footer-name {
@@ -510,10 +511,12 @@ h2.section-spaced {
 }
 
 .footer-nav-block {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 9px 20px;
+    align-items: start;
+    justify-items: end;
+    text-align: right;
 }
 
 .footer-nav-block a {
