@@ -554,6 +554,49 @@ h2.section-spaced {
 }
 
 /* ===== CONTACT PAGE ===== */
+.contact-simple {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.contact-simple-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 36px 40px;
+    border-left: 5px solid #2e8b57;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.09);
+    max-width: 680px;
+    width: 100%;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #333;
+}
+
+.contact-simple-card p {
+    margin-bottom: 1em;
+}
+
+.contact-simple-card p:last-child {
+    margin-bottom: 0;
+}
+
+.contact-simple-card a {
+    color: #008888;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-simple-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .contact-simple-card {
+        padding: 24px 20px;
+    }
+}
+
 .contact-layout {
     display: grid;
     grid-template-columns: 1fr 1.7fr;
