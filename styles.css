@@ -71,6 +71,44 @@ a:hover {
     border-bottom-color: rgba(255, 255, 255, 0.7);
 }
 
+/* ===== HAMBURGER TOGGLE BUTTON ===== */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 101;
+    flex-shrink: 0;
+}
+
+.nav-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    transform-origin: center;
+}
+
+.nav-toggle[aria-expanded="true"] span:nth-child(1) {
+    transform: translateY(8.5px) rotate(45deg);
+}
+
+.nav-toggle[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.nav-toggle[aria-expanded="true"] span:nth-child(3) {
+    transform: translateY(-8.5px) rotate(-45deg);
+}
+
 /* ===== HERO (homepage only) ===== */
 .hero {
     position: relative;
@@ -600,25 +638,12 @@ h2.section-spaced {
     text-decoration: underline;
 }
 
-@media (max-width: 700px) {
-    .contact-simple-card {
-        padding: 24px 20px;
-    }
-}
-
 .contact-layout {
     display: grid;
     grid-template-columns: 1fr 1.7fr;
     gap: 40px;
     align-items: start;
     margin-top: 24px;
-}
-
-@media (max-width: 700px) {
-    .contact-layout {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
 }
 
 .contact-info {
@@ -707,5 +732,158 @@ h2.section-spaced {
     background-color: #006e6e;
     box-shadow: 0 4px 12px rgba(0, 110, 110, 0.22);
     transform: translateY(-2px);
+}
+
+/* ===== MOBILE RESPONSIVE STYLES ===== */
+@media (max-width: 768px) {
+
+    /* --- Navigation --- */
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-inner {
+        padding: 0 16px;
+        position: relative;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 62px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: linear-gradient(180deg, #006e6e 0%, #00787a 100%);
+        padding: 4px 0 8px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28);
+        gap: 0;
+        z-index: 99;
+    }
+
+    .nav-links.nav-open {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 13px 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+        font-size: 0.97rem;
+        border-left: none;
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+
+    /* --- Hero --- */
+    .hero {
+        max-height: none;
+    }
+
+    .hero-img {
+        height: 180px;
+    }
+
+    .hero-content {
+        padding: 18px 16px 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.4rem;
+        margin-bottom: 6px;
+    }
+
+    .hero-sub {
+        font-size: 0.88rem;
+    }
+
+    /* --- Page wrap --- */
+    .page-wrap {
+        padding: 20px 16px 16px;
+    }
+
+    /* --- Headings --- */
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.15rem;
+    }
+
+    /* --- Content cards & org blocks --- */
+    .content-card,
+    .organization {
+        padding: 16px 16px;
+    }
+
+    /* --- Org button grid: 2 per row on mobile --- */
+    .org-button {
+        width: calc(50% - 7px);
+        min-height: 60px;
+        font-size: 0.85rem;
+        padding: 14px 8px;
+    }
+
+    /* --- Bottom buttons: full-width stacked --- */
+    .bottom-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .bottom-button {
+        min-width: unset;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* --- Story card --- */
+    .story-card {
+        padding: 20px 16px 16px;
+    }
+
+    .story-card h2 {
+        font-size: 1.25rem;
+    }
+
+    /* --- Footer --- */
+    .footer-inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-nav-block {
+        grid-template-columns: 1fr 1fr;
+        justify-items: start;
+        text-align: left;
+    }
+
+    .footer-nav-block a:last-child {
+        grid-column: 1;
+    }
+
+    .site-footer {
+        padding: 28px 16px 20px;
+    }
+
+    /* --- Contact page --- */
+    .contact-simple-card {
+        padding: 22px 16px;
+    }
+
+    .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .contact-form-wrap {
+        padding: 20px 16px;
+    }
+
+    .contact-submit {
+        width: 100%;
+        text-align: center;
+    }
 }
 
