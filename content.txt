@@ -101,7 +101,7 @@ Sargeant Bay Society
 "Established in 1978, the Sargeant Bay Society is a volunteer non-profit organization located on the Sunshine Coast of British Columbia, Canada. We work to support, enhance, and protect the ecologically sensitive habitats found within Sargeant Bay, its watershed, and neighbouring wetlands."  (Quoted from the Society’s website.)
 
 Biomonitoring Programs: Yes.
-- Colvin Creek spawning counts by Sargeant Bay's Streamkeeper.
+- Colvin Creek spawning counts by Sargeant Bay's Streamkeepers.
 
 Education Programs: Yes. Occasional educational gatherings and nature walks occur in any given year. See the website for upcoming events.
 
@@ -110,7 +110,7 @@ Biomonitoring and Community Science Volunteer Opportunities: Yes. Contact the So
 In addition to monitoring Colvin Creek salmon, the Society is engaged in several other activities aimed at enhancing biodiversity and its appreciation at Sargeant Bay and nearby watersheds, and there are volunteer opportunities in these other programs.
 
 Website: https://sargbay.ca/
-Location: Largely centred around Halfmoon Bay
+Location: Centred around Halfmoon Bay and Smuggler Cove and Marine Park
 Contact: (604) 885 4642
 
 Sunshine Coast Bear Alliance
@@ -165,7 +165,7 @@ Sunshine Coast Natural History Society
 
 "Although originally set up to manage Sechelt Marsh, the Sunshine Coast Natural History Society now caters for a wide range of natural history interests on the Sunshine Coast of BC." There is a focus on birds; however, interests span natural history, including bats, dragonflies, and butterflies. (Quote from the Society’s website.) 
 
-Biomonitoring Programs: The Society organizes the Sunshine Coast Annual Christmas Bird Count, one of two Christmas bird counts in the Sunshine Coast Regional District, the other centred on Pender Harbour.
+Biomonitoring Programs: The Society organizes the Sunshine Coast Annual Christmas Bird Count, centred on Roberts Creek, one of two Christmas bird counts in the Sunshine Coast Regional District, the other centred on Pender Harbour.
 
 Education Programs: Yes. Meetings include discussion of recent natural history sightings. Other educational events include nature walks and regular invited speakers. See the website for upcoming events.
 
@@ -229,7 +229,7 @@ Here are some broader, regional to international platforms where community membe
 
 - eBird – Sunshine Coast (https://ebird.org/region/CA-BC-SC): A global bird observation platform that allows users to submit bird sightings specific to the Sunshine Coast region, contributing to long term population and distribution data.
 
-- iNaturalist – Sunshine Coast (https://www.inaturalist.org/places/sunshine-coast): A community science platform where users can upload photos of plants, animals, and fungi observed on the Sunshine Coast; observations help document local biodiversity and are often used by researchers and conservation groups.
+- iNaturalist – Sunshine Coast (https://www.inaturalist.org/projects/biodiversity-of-the-sunshine-coast-bc-canada and https://www.inaturalist.org/places/sunshine-coast): A community science platform where users can upload photos of plants, animals, and fungi observed on the Sunshine Coast; observations help document local biodiversity and are often used by researchers and conservation groups.
 
 - Birds Canada (https://www.birdscanada.org/you-can-help/citizen-science): Birds Canada offers diverse volunteer community science opportunities. These range from monitoring nest success and counting birds in winter to surveying nocturnal species and mapping breeding populations.
 
