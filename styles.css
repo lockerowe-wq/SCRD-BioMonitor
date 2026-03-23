@@ -376,12 +376,16 @@ h2.section-spaced {
 }
 
 .story-index-heading {
-    font-size: 1.1rem;
+    display: inline-block;
+    font-size: 1.2rem;
     font-weight: 700;
-    color: #004f4f;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #008888;
+    padding: 4px 12px;
+    border-radius: 3px;
     margin: 0 0 14px;
-    border-bottom: 1px solid #dde8e4;
-    padding-bottom: 10px;
 }
 
 .story-index-list {
@@ -391,7 +395,7 @@ h2.section-spaced {
 
 .story-index-list li {
     margin-bottom: 10px;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
 }
 
 .story-index-list a {
