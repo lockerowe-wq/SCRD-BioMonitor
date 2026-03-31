@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestion 3 – Bold Lead Text with Wide Accent Rule</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ===== SUGGESTION 3: Bold Lead Text with Wide Accent Rule ===== */
+
+        .text-lead-block {
+            position: relative;
+            padding: 20px 24px 20px 28px;
+            margin: 0 0 28px;
+            border-left: 6px solid #008888;
+            background: #f7fbf9;
+            border-radius: 0 10px 10px 0;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+        }
+
+        /* Top horizontal rule accent */
+        .text-lead-block::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -6px;
+            width: 60px;
+            height: 4px;
+            background: #2e8b57;
+            border-radius: 0 0 4px 4px;
+        }
+
+        /* Styled first sentence / drop lead */
+        .text-lead-block .lead-sentence {
+            display: block;
+            font-size: 1.08rem;
+            font-weight: 600;
+            color: #006e6e;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .text-lead-block p {
+            margin: 0 0 14px;
+            color: #3a3a3a;
+        }
+
+        /* Minimal text-link style button */
+        .text-lead-block .more-btn {
+            background: transparent;
+            border: none;
+            color: #008888;
+            padding: 4px 0;
+            font-size: 0.88rem;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            margin: 0;
+            box-shadow: none;
+        }
+
+        .text-lead-block .more-btn:hover {
+            background: transparent;
+            color: #006e6e;
+            box-shadow: none;
+        }
+
+        .text-lead-block .more-btn .more-btn-arrow {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Expanded panel */
+        .text-lead-block .more-panel {
+            margin: 12px 0 0;
+            border-radius: 6px;
+            background: #e5f4ee;
+            border: 1px solid #b2d8c8;
+            padding: 14px 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">Coast Biomonitoring<br><span class="nav-brand-sub">Portal</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="index.html#organizations">Organizations</a>
+                <a href="additional-opportunities.html">Additional<br>Opportunities</a>
+                <a href="biomonitors.html">On Being a<br>Biomonitor</a>
+                <a href="biodiversity-research.html">Research<br>Stories</a>
+                <a href="natural-history.html">Natural<br>History</a>
+                <a href="bc-biodiversity-data-repositories.html">Data<br>Repositories</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <img src="homepage_header.png" alt="Sunshine Coast landscape" class="hero-img">
+        <div class="hero-content">
+            <h1>Biomonitoring and Community Science on the Sunshine Coast</h1>
+            <p class="hero-sub">Opportunities to learn about biodiversity and contribute to its preservation</p>
+        </div>
+    </div>
+
+    <main class="page-wrap">
+
+    <p style="text-align:center; color:#555; font-style:italic; margin-bottom:24px;">
+        ✦ Suggestion 3: <strong>Bold Lead + Accent Rule</strong> — each block gets a bold highlighted opening sentence, a wide coloured left border with a short green top rule, and a minimal underlined text button.
+    </p>
+
+    <div class="text-lead-block">
+        <span class="lead-sentence">The Sunshine Coast in British Columbia is an 180 km stretch of rugged maritime landscape along the mainland's southwest coast.</span>
+        <p>Nestled between Howe Sound and Desolation Sound, this region includes or overlaps with the unceded territories of the Sḵwx̱wú7mesh, shíshálh, Tla'amin, Klahoose, and Homalco First Nations. The region supports rich biodiversity anchored by Coastal Western Hemlock and Coastal Douglas-fir forests.</p>
+        <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="s3-panel-biodiversity"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true"> ▾</span></button>
+        <div class="more-panel" id="s3-panel-biodiversity">
+            <p>Old growth stands, wetlands, estuaries, and marine waters are also found throughout the region. Terrestrial habitats host black bears, cougars, elk, wolves, coyotes, black tailed deer, bald eagles, marbled murrelets, and many other species. Coastal and marine ecosystems include kelp forests, rare glass sponge reefs, salmon streams, and tide pools that are home to molluscs, sea anemones, and fish. Resident and Bigg's orcas, seals, sea lions, and migratory birds rely on these productive waters and shorelines.</p>
+        </div>
+    </div>
+
+    <div class="text-lead-block">
+        <span class="lead-sentence">Paired with its extraordinary biodiversity, the Sunshine Coast has an unusual number of non-profit organizations whose mission is to conserve, enhance, and steward biodiversity.</span>
+        <p>These organizations are often involved in biomonitoring programs and in education about biodiversity on the coast. The primary purpose of this website is to introduce and celebrate those non-profit organizations that offer opportunities for community members to become involved in biomonitoring as volunteers or to take advantage of the educational opportunities they provide.</p>
+        <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="s3-panel-purpose"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true"> ▾</span></button>
+        <div class="more-panel" id="s3-panel-purpose">
+            <p>Here we focus on opportunities within the Sunshine Coast Regional District, extending from Langdale to Egmont. In each organization's page there are buttons linking to pages that describe in some detail the sampling regimes used by each organization in their biomonitoring programs and the sites where their data is deposited.</p>
+        </div>
+    </div>
+
+    <h2 id="organizations">Volunteer and Education Opportunities</h2>
+
+    <p style="text-align: center;">All of the organizations highlighted here are engaged in much more than biomonitoring, community (or citizen) science, and education. Their activities range from beach clean ups to political advocacy for conservation, and from building fish ladders to entire biodiversity dedicated facilities. There are many opportunities for community members to be involved in these activities. Go to their websites to see their remarkable and sustained community based work for nature.</p>
+
+    <div class="button-grid">
+        <a href="blueact-society.html" class="org-button">BlueAct Marine Society</a>
+        <a href="hotel-lake-advisory-association.html" class="org-button">Hotel Lake Advisory Association</a>
+        <a href="loon-foundation.html" class="org-button">The Loon Foundation</a>
+        <a href="pender-harbour-wildlife-society.html" class="org-button">Pender Harbour Wildlife Society</a>
+        <a href="sargeant-bay-society.html" class="org-button">Sargeant Bay Society</a>
+        <a href="sunshine-coast-bear-alliance.html" class="org-button">Sunshine Coast Bear Alliance</a>
+        <a href="sunshine-coast-conservation-association.html" class="org-button">Sunshine Coast Conservation Association</a>
+        <a href="sunshine-coast-friends-of-forage-fish.html" class="org-button">Sunshine Coast Friends of Forage Fish</a>
+        <a href="sunshine-coast-natural-history-society.html" class="org-button">Sunshine Coast Natural History Society</a>
+        <a href="sunshine-coast-salmonid-enhancement-society.html" class="org-button">Sunshine Coast Salmonid Enhancement Society</a>
+        <a href="sunshine-coast-streamkeepers-society.html" class="org-button">Sunshine Coast Streamkeepers Society</a>
+        <a href="sunshine-coast-wildlife-project.html" class="org-button">Sunshine Coast Wildlife Project</a>
+    </div>
+
+    <h2>Data and Methods</h2>
+
+    <div class="text-lead-block">
+        <span class="lead-sentence">Biomonitoring programs typically deposit data collected as part of the program in a data repository so it can be used by researchers.</span>
+        <p>Some examples of data from local biomonitoring programs fueling formal research are given <a href="biodiversity-research.html">here</a>.</p>
+        <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="s3-panel-repository"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true"> ▾</span></button>
+        <div class="more-panel" id="s3-panel-repository">
+            <p>A data repository acts as a secure, curated and organized hub where researchers, or those otherwise engaged in biomonitoring, can store, manage, and share massive collections of data. Its primary goal is to ensure that valuable information isn't lost, but is kept "FAIR" (Findable, Accessible, Interoperable, and Reusable) so it can be consulted by interested parties and accessed by future researchers.</p>
+        </div>
+    </div>
+
+    <p>For each organization, there is a "Data Repository" button that gives links to the sites where data are stored and curated for each of their biomonitoring programs. There is also a "BioMonitoring Methods" button where the data collection methods can be found.</p>
+
+    <p>In addition, some major Biodiversity Data Repositories in BC can be found <a href="bc-biodiversity-data-repositories.html">here</a>.</p>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand-block">
+                <div class="footer-name">Coast Biomonitoring Portal</div>
+                <div class="footer-tagline">Biomonitoring &amp; Community Science on the Sunshine Coast, BC</div>
+                <a href="contact.html" class="footer-contact-link">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom"><span>R<sup>2</sup> Foundation</span></div>
+    </footer>
+
+    <script>
+        function togglePanel(btn) {
+            const panelId = btn.getAttribute('aria-controls');
+            const panel = document.getElementById(panelId);
+            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            if (isExpanded) {
+                panel.classList.remove('visible');
+                btn.setAttribute('aria-expanded', 'false');
+                btn.querySelector('.more-btn-label').textContent = 'Show me more';
+            } else {
+                panel.classList.add('visible');
+                btn.setAttribute('aria-expanded', 'true');
+                btn.querySelector('.more-btn-label').textContent = 'Show less';
+            }
+        }
+    </script>
+    <script src="nav.js"></script>
+</body>
+</html>
