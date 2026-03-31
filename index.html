@@ -5,6 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biomonitoring and Community Science on the Sunshine Coast</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* ===== SUGGESTION 2: Feature Blocks with Top Gradient Bar + Category Label ===== */
+
+        .text-feature-block {
+            background: linear-gradient(to bottom, #f2faf6 0%, #fff 60%);
+            border-radius: 10px;
+            padding: 0;
+            margin: 0 0 28px;
+            box-shadow: 0 2px 10px rgba(0, 110, 110, 0.09);
+            overflow: hidden;
+            border: 1px solid #d0ece3;
+        }
+
+        /* Top gradient bar */
+        .text-feature-block::before {
+            content: '';
+            display: block;
+            height: 5px;
+            background: linear-gradient(90deg, #006e6e 0%, #008888 50%, #2e8b57 100%);
+        }
+
+        .text-feature-block-inner {
+            padding: 18px 24px 18px;
+        }
+
+        /* Category label */
+        .text-feature-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #008888;
+            background: #e0f2ec;
+            border-radius: 20px;
+            padding: 3px 10px;
+            margin-bottom: 10px;
+        }
+
+        .text-feature-block p {
+            margin: 0 0 14px;
+            color: #2c2c2c;
+        }
+
+        /* Pill-shaped centred button */
+        .text-feature-block .more-btn {
+            display: flex;
+            margin: 0 auto;
+            padding: 8px 22px;
+            border-radius: 20px;
+            background: #008888;
+            color: #fff;
+            border-color: #008888;
+            font-size: 0.88rem;
+        }
+
+        .text-feature-block .more-btn:hover {
+            background: #006e6e;
+            border-color: #006e6e;
+            box-shadow: 0 3px 10px rgba(0,110,110,0.28);
+        }
+
+        /* Expanded panel */
+        .text-feature-block .more-panel {
+            margin: 14px 0 0;
+            border-radius: 8px;
+            background: #e8f5f0;
+            border: none;
+            padding: 16px 18px;
+        }
+    </style>
 </head>
 <body>
     <nav class="site-nav">
@@ -33,16 +104,26 @@
 
     <main class="page-wrap">
 
-    <p>The Sunshine Coast in British Columbia is an 180 km stretch of rugged maritime landscape along the mainland's southwest coast, nestled between Howe Sound and Desolation Sound. This region includes or overlaps with the unceded territories of the Sḵwx̱wú7mesh, shíshálh, Tla'amin, Klahoose, and Homalco First Nations. The region supports rich biodiversity anchored by Coastal Western Hemlock and Coastal Douglas-fir forests.</p>
-    <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-biodiversity"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
-    <div class="more-panel" id="panel-biodiversity">
-        <p>Old growth stands, wetlands, estuaries, and marine waters are also found throughout the region. Terrestrial habitats host black bears, cougars, elk, wolves, coyotes, black tailed deer, bald eagles, marbled murrelets, and many other species. Coastal and marine ecosystems include kelp forests, rare glass sponge reefs, salmon streams, and tide pools that are home to molluscs, sea anemones, and fish. Resident and Bigg's orcas, seals, sea lions, and migratory birds rely on these productive waters and shorelines.</p>
+    <div class="text-feature-block">
+        <div class="text-feature-block-inner">
+            <span class="text-feature-label">🌿 The Region</span>
+            <p>The Sunshine Coast in British Columbia is an 180 km stretch of rugged maritime landscape along the mainland's southwest coast, nestled between Howe Sound and Desolation Sound. This region includes or overlaps with the unceded territories of the Sḵwx̱wú7mesh, shíshálh, Tla'amin, Klahoose, and Homalco First Nations. The region supports rich biodiversity anchored by Coastal Western Hemlock and Coastal Douglas-fir forests.</p>
+            <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-biodiversity"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
+            <div class="more-panel" id="panel-biodiversity">
+                <p>Old growth stands, wetlands, estuaries, and marine waters are also found throughout the region. Terrestrial habitats host black bears, cougars, elk, wolves, coyotes, black tailed deer, bald eagles, marbled murrelets, and many other species. Coastal and marine ecosystems include kelp forests, rare glass sponge reefs, salmon streams, and tide pools that are home to molluscs, sea anemones, and fish. Resident and Bigg's orcas, seals, sea lions, and migratory birds rely on these productive waters and shorelines.</p>
+            </div>
+        </div>
     </div>
 
-    <p>Paired with its extraordinary biodiversity, the Sunshine Coast has an unusual number of formal and informal non-profit organizations whose mission is to conserve, enhance, and steward biodiversity. These organizations are often involved in biomonitoring programs and in education about biodiversity on the coast. The primary purpose of this website is to introduce and celebrate those non-profit organizations that offer opportunities for community members to become involved in biomonitoring as volunteers or to take advantage of the educational opportunities they provide.</p>
-    <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-purpose"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
-    <div class="more-panel" id="panel-purpose">
-        <p>Here we focus on opportunities within the Sunshine Coast Regional District, extending from Langdale to Egmont. In each organization's page there are buttons linking to pages that describe in some detail the sampling regimes used by each organization in their biomonitoring programs and the sites where their data is deposited. The aims of these to sections are to allow different organizations to learn from one another about current practices across the Coast, and perhaps improve them with input from experts in the field, and to provide quick access by researchers and community members to the data collected.</p>
+    <div class="text-feature-block">
+        <div class="text-feature-block-inner">
+            <span class="text-feature-label">🤝 Our Purpose</span>
+            <p>Paired with its extraordinary biodiversity, the Sunshine Coast has an unusual number of formal and informal non-profit organizations whose mission is to conserve, enhance, and steward biodiversity. These organizations are often involved in biomonitoring programs and in education about biodiversity on the coast. The primary purpose of this website is to introduce and celebrate those non-profit organizations that offer opportunities for community members to become involved in biomonitoring as volunteers or to take advantage of the educational opportunities they provide.</p>
+            <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-purpose"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
+            <div class="more-panel" id="panel-purpose">
+                <p>Here we focus on opportunities within the Sunshine Coast Regional District, extending from Langdale to Egmont. In each organization's page there are buttons linking to pages that describe in some detail the sampling regimes used by each organization in their biomonitoring programs and the sites where their data is deposited. The aims of these to sections are to allow different organizations to learn from one another about current practices across the Coast, and perhaps improve them with input from experts in the field, and to provide quick access by researchers and community members to the data collected.</p>
+            </div>
+        </div>
     </div>
 
     <h2 id="organizations">Volunteer and Education Opportunities</h2>
@@ -68,10 +149,15 @@
 
     <h2>Data and Methods</h2>
 
-    <p>Biomonitoring programs typically deposit data collected as part of the program in a data repository. Data can then be used by researchers. Some examples of data from local biomonitoring programs fueling formal research are given <a href="biodiversity-research.html">here</a>.</p>
-    <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-repository"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
-    <div class="more-panel" id="panel-repository">
-        <p>A data repository acts as a secure, curated and organized hub where researchers, or those otherwise engaged in biomonitoring, can store, manage, and share massive collections of data. Its primary goal is to ensure that valuable information isn't lost, but is kept "FAIR" (Findable, Accessible, Interoperable, and Reusable) so it can be consulted by interested parties and accessed by future researchers. By providing a structured and citable home for information, data repositories transform isolated data sets into a permanent, searchable resource for long-term and collaborative research and monitoring.</p>
+    <div class="text-feature-block">
+        <div class="text-feature-block-inner">
+            <span class="text-feature-label">📊 Data</span>
+            <p>Biomonitoring programs typically deposit data collected as part of the program in a data repository. Data can then be used by researchers. Some examples of data from local biomonitoring programs fueling formal research are given <a href="biodiversity-research.html">here</a>.</p>
+            <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-repository"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
+            <div class="more-panel" id="panel-repository">
+                <p>A data repository acts as a secure, curated and organized hub where researchers, or those otherwise engaged in biomonitoring, can store, manage, and share massive collections of data. Its primary goal is to ensure that valuable information isn't lost, but is kept "FAIR" (Findable, Accessible, Interoperable, and Reusable) so it can be consulted by interested parties and accessed by future researchers. By providing a structured and citable home for information, data repositories transform isolated data sets into a permanent, searchable resource for long-term and collaborative research and monitoring.</p>
+            </div>
+        </div>
     </div>
 
     <p>For each organization, there is a "Data Repository" button that gives links to the sites where data are stored and curated for each of their biomonitoring programs. There is also a "BioMonitoring Methods" button where the data collection methods can be found.</p>
