@@ -502,6 +502,48 @@ h2.section-spaced {
     font-style: italic;
 }
 
+/* ===== COMMUNITY BIOMONITOR PROFILE ===== */
+.community-biomonitor-profile {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) 1fr;
+    gap: 24px;
+    align-items: start;
+    margin-top: 20px;
+    padding: 20px;
+    background: #f7fbf9;
+    border: 1px solid #d7e8e1;
+    border-radius: 8px;
+}
+
+.community-biomonitor-figure {
+    margin: 0;
+}
+
+.community-biomonitor-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #cfe2da;
+}
+
+.community-biomonitor-figure figcaption {
+    margin-top: 8px;
+    font-size: 0.84rem;
+    color: #5e6d67;
+    text-align: center;
+    font-style: italic;
+}
+
+.community-biomonitor-text p {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.community-biomonitor-text p:last-child {
+    margin-bottom: 0;
+}
+
 /* ===== GUIDE CARDS (natural-history.html) ===== */
 .guide-grid {
     display: grid;
@@ -904,6 +946,12 @@ h2.section-spaced {
         font-size: 1.25rem;
     }
 
+    .community-biomonitor-profile {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 16px;
+    }
+
     /* --- Footer --- */
     .footer-inner {
         flex-direction: column;
@@ -943,4 +991,3 @@ h2.section-spaced {
         text-align: center;
     }
 }
-
