@@ -515,6 +515,10 @@ h2.section-spaced {
     border-radius: 8px;
 }
 
+.community-biomonitor-profile--poppy {
+    grid-template-columns: minmax(260px, 380px) 1fr;
+}
+
 .community-biomonitor-figure {
     margin: 0;
 }
