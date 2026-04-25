@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lockerowe-wq.github.io/SCRD-BioMonitor/sitemap.xml
+Sitemap: https://sunshinecoastbiomon.com/sitemap.xml
