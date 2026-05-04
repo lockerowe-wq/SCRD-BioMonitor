@@ -519,6 +519,10 @@ h2.section-spaced {
     grid-template-columns: minmax(260px, 380px) 1fr;
 }
 
+.community-biomonitor-profile--rand {
+    grid-template-columns: minmax(300px, 500px) 1fr;
+}
+
 .community-biomonitor-figure {
     margin: 0;
 }
