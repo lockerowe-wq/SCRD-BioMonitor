@@ -202,6 +202,10 @@ h2.section-spaced {
     margin-top: 44px;
 }
 
+:target {
+    scroll-margin-top: 110px;
+}
+
 /* ===== CONTENT CARD ===== */
 .content-card {
     background: #fff;
