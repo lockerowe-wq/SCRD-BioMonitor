@@ -471,6 +471,15 @@ h2.section-spaced {
     border: 1px solid #dde8e4;
 }
 
+.story-figure object {
+    display: block;
+    width: 100%;
+    height: 880px;
+    border-radius: 6px;
+    border: 1px solid #dde8e4;
+    background: #fff;
+}
+
 .story-figure figcaption {
     font-size: 0.82rem;
     color: #666;
@@ -478,6 +487,11 @@ h2.section-spaced {
     line-height: 1.5;
     text-align: center;
     font-style: italic;
+}
+
+.story-figure figcaption:first-child {
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .key-finding {
