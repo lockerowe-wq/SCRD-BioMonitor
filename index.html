@@ -168,12 +168,12 @@
 
     <p>Observations recorded by volunteers become permanent, searchable data, deposited in shared repositories where researchers across the region and beyond can access it. These data fuel peer-reviewed studies on local species, habitats, and ecological trends. By connecting citizen science directly to formal research, biomonitoring programs create evidence that can shape conservation priorities and inform the policy decisions that protect our natural environment for generations to come. Some examples of recent biodiversity research on the Coast, and local biomonitoring programs fuelling that research can be found <a href="biodiversity-research.html">here</a>.</p>
 
-    <h2>Data and Methods</h2>
+    <h2 id="data-and-methods">Data and Methods</h2>
 
     <p>Each organization's page includes a Data Repository button linking to the site where their biomonitoring data is stored and curated, and a BioMonitoring Methods button detailing their data collection procedures, where provided by the organization. These sections aim to help organizations learn from one another about current practices across the Coast — and potentially improve them with input from field experts — while also giving researchers and community members quick access to collected data. Links to other major Biodiversity Data Repositories in BC are also available <a href="bc-biodiversity-data-repositories.html">here</a>.</p>
     <button class="more-btn" onclick="togglePanel(this)" aria-expanded="false" aria-controls="panel-repository"><span class="more-btn-label">Show me more</span> <span class="more-btn-arrow" aria-hidden="true">▾</span></button>
     <div class="more-panel" id="panel-repository">
-        <p>A data repository acts as a secure, curated and organized hub where researchers, or those otherwise engaged in biomonitoring, can store, manage, and share massive collections of data. Its primary goal is to ensure that valuable information isn't lost, but is kept "FAIR" (Findable, Accessible, Interoperable, and Reusable) so it can be consulted by interested parties and accessed by future researchers. By providing a structured and citable home for information, data repositories transform isolated data sets into a permanent, searchable resource for long-term and collaborative research and monitoring.</p>
+        <p id="fair-data">A data repository acts as a secure, curated and organized hub where researchers, or those otherwise engaged in biomonitoring, can store, manage, and share massive collections of data. Its primary goal is to ensure that valuable information isn't lost, but is kept "FAIR" (Findable, Accessible, Interoperable, and Reusable) so it can be consulted by interested parties and accessed by future researchers. By providing a structured and citable home for information, data repositories transform isolated data sets into a permanent, searchable resource for long-term and collaborative research and monitoring.</p>
     </div>
 
     </main>
@@ -215,6 +215,23 @@
                 btn.querySelector('.more-btn-label').textContent = 'Show less';
             }
         }
+
+        (function () {
+            const hash = window.location.hash;
+            if (!hash) return;
+            const target = document.querySelector(hash);
+            if (!target) return;
+            const panel = target.closest('.more-panel');
+            if (panel) {
+                panel.classList.add('visible');
+                const btn = document.querySelector('[aria-controls="' + panel.id + '"]');
+                if (btn) {
+                    btn.setAttribute('aria-expanded', 'true');
+                    btn.querySelector('.more-btn-label').textContent = 'Show less';
+                }
+                setTimeout(function () { target.scrollIntoView(); }, 0);
+            }
+        })();
     </script>
 
     <script src="nav.js"></script>
