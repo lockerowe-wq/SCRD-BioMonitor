@@ -494,6 +494,17 @@ h2.section-spaced {
     margin-bottom: 8px;
 }
 
+.story-figure--right {
+    float: right;
+    margin: 0 0 20px 28px;
+    max-width: 340px;
+    clear: right;
+}
+
+.story-figure--right figcaption {
+    text-align: left;
+}
+
 .key-finding {
     background: #eaf5ef;
     border-left: 4px solid #2e8b57;
