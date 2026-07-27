@@ -515,6 +515,35 @@ h2.section-spaced {
     margin-bottom: 12px;
 }
 
+/* ===== STORY ASIDE (figure right, text left, side-by-side grid) ===== */
+.story-aside {
+    display: grid;
+    grid-template-columns: 1fr minmax(220px, 300px);
+    gap: 24px;
+    align-items: start;
+    margin-top: 16px;
+}
+
+.story-aside figure {
+    margin: 0;
+}
+
+.story-aside figure img {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #dde8e4;
+}
+
+.story-aside figure figcaption {
+    font-size: 0.82rem;
+    color: #666;
+    margin-top: 8px;
+    line-height: 1.5;
+    text-align: left;
+    font-style: italic;
+}
+
 .key-finding {
     background: #eaf5ef;
     border-left: 4px solid #2e8b57;
@@ -997,6 +1026,10 @@ h2.section-spaced {
         grid-template-columns: 1fr;
         gap: 16px;
         padding: 16px;
+    }
+
+    .story-aside {
+        grid-template-columns: 1fr;
     }
 
     /* --- Footer --- */
