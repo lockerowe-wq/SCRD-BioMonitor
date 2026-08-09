@@ -115,6 +115,10 @@ Although past stories occasionally use em dashes (—) for asides or parenthetic
 - Acknowledges scientific uncertainty and open questions honestly ("We will probably never know how sunfish got into Trout or Colvin lakes, but…").
 - Avoids jargon without explanation; when a technical term is needed (eDNA, MaxEnt, stable isotope analysis, migratory allopatry), it is defined in-line immediately.
 - Conservation stakes and implications are usually named plainly, without being preachy.
+- **No literary/poetic devices.** Never open with personification, dramatic scene-painting, or metaphor (a "countdown" beginning, "something ancient stirs," an "old synchrony breaking down," a species "racing" a season). The corpus opens with plain, declarative statements of fact instead: *"The Swainson's Thrush is a small, spotted songbird that breeds across the boreal forests of North America…"* / *"Black oystercatchers, the striking orange-billed shorebirds that patrol our rocky shorelines, are considered an indicator of a healthy intertidal zone."* Establish what the organism or phenomenon *is* and *does* before any narrative colour, not the reverse.
+- Avoid evaluative flourishes in the narrator's own voice ("a quiet but serious vulnerability," "the feast has already passed"). State the finding and its implication plainly; let the facts carry the weight.
+- Bold subheads should be plain and descriptive ("A Rare and Patchy Habitat," "Data and Methods"), not clever or cute ("Sixty-Six Clocks, Not One").
+- If a draft reads more like a magazine feature than a field report, it has drifted too far. When in doubt, cut adjectives and metaphor rather than add them.
 
 ### 5. Closing (Takeaway + Citation)
 - Bolded lead-in: **Key Finding** / **Key Takeaway** / **Key Takeaways** / **Takeaways** — pick ONE per story, applied consistently as a colon-led inline lead ("**Key Finding** Only 5.4% of…") or as its own mini-header. Both patterns appear in the corpus; either is acceptable, but stay internally consistent within a single story.
