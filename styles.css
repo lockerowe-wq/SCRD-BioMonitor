@@ -80,6 +80,22 @@ a:hover {
     border-bottom-color: rgba(255, 255, 255, 0.7);
 }
 
+.nav-links a.nav-contact-btn {
+    background: #fff;
+    color: #006e6e;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border-bottom: none;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.nav-links a.nav-contact-btn:hover {
+    background: rgba(255, 255, 255, 0.85);
+    color: #006e6e;
+    border-bottom: none;
+}
+
 /* ===== HAMBURGER TOGGLE BUTTON ===== */
 .nav-toggle {
     display: none;
@@ -949,6 +965,11 @@ h2.section-spaced {
 
     .nav-links a:last-child {
         border-bottom: none;
+    }
+
+    .nav-links a.nav-contact-btn {
+        margin: 10px 20px 4px;
+        text-align: center;
     }
 
     /* --- Hero --- */
