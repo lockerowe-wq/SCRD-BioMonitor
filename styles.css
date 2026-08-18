@@ -570,6 +570,20 @@ h2.section-spaced {
     font-style: italic;
 }
 
+.story-update {
+    background: #fdf6e8;
+    border-left: 4px solid #c9932e;
+    border-radius: 0 6px 6px 0;
+    padding: 14px 18px;
+    margin: 20px 0 0;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+}
+
+.story-update strong {
+    color: #8a641c;
+}
+
 /* ===== COMMUNITY BIOMONITOR PROFILE ===== */
 .community-biomonitor-profile {
     display: grid;
