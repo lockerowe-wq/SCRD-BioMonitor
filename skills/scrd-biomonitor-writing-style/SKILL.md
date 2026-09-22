@@ -57,7 +57,7 @@ Source reviewed: **every page on the site** — Home, Biodiversity Research (all
 ### Recurring Visual/Content Elements
 - Featured header images per page.
 - Figures/photos embedded with italic captions crediting the source study or photographer.
-- Repeating section-divider labels appear before certain headers, functioning like a category tag: **"Coast Biomonitoring Fuels Science"** or **"Research Story"** shown just above H2 headers on the Biodiversity Research page (see Part 2).
+- Repeating section-divider labels appear before certain headers, functioning like a category tag: **"Coast Monitoring Fuels Science"** or **"Research Story"** shown just above H2 headers on the Biodiversity Research page (see Part 2).
 
 ### Site-wide Navigation & Cross-linking Pattern
 - Every page carries the same nav bar (Home, Organizations, People, Get Involved, Biodiversity Research, Natural History, Additional Opportunities, Data Repositories) and the same footer block, reinforcing the site as a unified portal rather than standalone pages.
@@ -89,7 +89,7 @@ Use this section as the reference whenever drafting a **new** Biodiversity Resea
 - Built from **4–7 short-to-medium paragraphs** (rarely more than 5–6 sentences each).
 - Almost always ends with a **bolded "Key Finding" / "Key Takeaway(s)" / "Takeaways" callout** — one tight paragraph (2–5 sentences) that a reader could get value from even if they skipped everything above it.
 - Full citation(s) in academic format immediately follow the takeaway, on their own line(s).
-- A category tag line ("Coast Biomonitoring Fuels Science" or "Research Story") sits directly above the H2 title. Use **"Coast Biomonitoring Fuels Science"** when local volunteer/biomonitoring data directly feeds the research discussed; use **"Research Story"** when the piece is more about a general/adjacent scientific finding with a looser or emerging local tie-in.
+- A category tag line ("Coast Monitoring Fuels Science" or "Research Story") sits directly above the H2 title. Use **"Coast Monitoring Fuels Science"** when local volunteer/monitoring data directly feeds the research discussed; use **"Research Story"** when the piece is more about a general/adjacent scientific finding with a looser or emerging local tie-in.
 
 ### 2. Opening (Hook Paragraph)
 - Never opens with the study's citation or "A recent study found…"
@@ -135,7 +135,7 @@ Although past stories occasionally use em dashes (—) for asides or parenthetic
 - External articles/news coverage: hyperlink inline via descriptive phrase or "here," not raw URLs (except source repositories, which may show as a bare link e.g. `<https://sentinels.hakai.org/>`).
 
 ### Quick Checklist for a New Story
-- [ ] Category tag above title: "Coast Biomonitoring Fuels Science" or "Research Story"?
+- [ ] Category tag above title: "Coast Monitoring Fuels Science" or "Research Story"?
 - [ ] Punchy, concrete opening hook (not "A study found…")
 - [ ] Named, bolded, linked lead researcher + institution
 - [ ] Plain-language explanation of method
