@@ -176,6 +176,11 @@ a:hover {
     flex: 1;
 }
 
+.site-credit {
+    text-align: center;
+    margin-top: 32px;
+}
+
 /* ===== HEADINGS ===== */
 h1 {
     color: #008888;
