@@ -5,7 +5,7 @@ description: Style guide for the Sunshine Coast Biomonitoring Portal (SCRD-BioMo
 
 # Sunshine Coast Biomonitoring Portal — Style Guide
 
-Source reviewed: **every page on the site** — Home, Biodiversity Research (all 12 stories), People, Get Involved, Natural History, Additional Opportunities, Data Repositories, Contact, and all 13 Organizations pages (Hotel Lake Advisory Association, Loon Foundation, Sargeant Bay Society, Sunshine Coast Natural History Society, Sunshine Coast Salmonid Enhancement Society, Sunshine Coast Streamkeepers Society, Sunshine Coast Friends of Forage Fish, Pender Harbour Wildlife Society, Sunshine Coast Wildlife Project, Sunshine Coast Bear Alliance, Sunshine Coast Conservation Association, BlueAct Marine Society, Wild Ocean Whale Society).
+Source reviewed: **every page on the site** — Home, Biodiversity Research (all 13 stories), People, Get Involved, Natural History, Additional Opportunities, Data Repositories, Contact, and all 13 Organizations pages (Hotel Lake Advisory Association, Loon Foundation, Sargeant Bay Society, Sunshine Coast Natural History Society, Sunshine Coast Salmonid Enhancement Society, Sunshine Coast Streamkeepers Society, Sunshine Coast Friends of Forage Fish, Pender Harbour Wildlife Society, Sunshine Coast Wildlife Project, Sunshine Coast Bear Alliance, Sunshine Coast Conservation Association, BlueAct Marine Society, Wild Ocean Whale Society).
 
 Biodiversity Research section re-reviewed against the live page in October 2026, after the site owner's rewrites of the Sand Lance, Swainson's Thrush, and Oystercatcher stories and a round of line edits across the others. Those edits are the best evidence of the intended voice; Part 3 summarizes what they removed.
 
@@ -74,20 +74,21 @@ Biodiversity Research section re-reviewed against the live page in October 2026,
 
 ## PART 2: Biodiversity Research Module — Story Style Guide
 
-**Stories on the page: 12**
+**Stories on the page: 13**
 
-1. Monitoring for Fisheries, or for Fish?
-2. Counting Lice: Tracking a Tiny Threat to Wild Salmon
-3. iNaturalist on the Coast
-4. Birds on the move up Tetrahedron
-5. Shining a Light on Dungeness Crab Larvae
-6. Seabirds on the Move Along BC's Coast
-7. How did Sunfish get into Trout and Colvin Lakes?
-8. Stickleback and the Origin of Species on the Sunshine Coast
-9. Mapping Pacific Sand Lance Spawning Habitat in the Salish Sea
-10. Two Roads South: The Divided Migration of Swainson's Thrushes
-11. Citizen Science at Hotel Lake: Tracing the Diet of an Invasive Jellyfish
-12. Tracking Oystercatchers Reveals Habitat Choices That Trade Off Foraging & Avoiding Predators
+1. Counting Loon Chicks: Volunteers Track a Decline Across North America
+2. Monitoring for Fisheries, or for Fish?
+3. Counting Lice: Tracking a Tiny Threat to Wild Salmon
+4. iNaturalist on the Coast
+5. Birds on the move up Tetrahedron
+6. Shining a Light on Dungeness Crab Larvae
+7. Seabirds on the Move Along BC's Coast
+8. How did Sunfish get into Trout and Colvin Lakes?
+9. Stickleback and the Origin of Species on the Sunshine Coast
+10. Mapping Pacific Sand Lance Spawning Habitat in the Salish Sea
+11. Two Roads South: The Divided Migration of Swainson's Thrushes
+12. Citizen Science at Hotel Lake: Tracing the Diet of an Invasive Jellyfish
+13. Tracking Oystercatchers Reveals Habitat Choices That Trade Off Foraging & Avoiding Predators
 
 Use this section as the reference whenever drafting a **new** Biodiversity Research story or editing an existing one.
 
@@ -184,4 +185,4 @@ When in doubt, write the plainer sentence.
 
 ---
 
-*Use this guide whenever a Biodiversity Research story is drafted or edited, to keep new stories consistent with the 12 stories already published on the page.*
+*Use this guide whenever a Biodiversity Research story is drafted or edited, to keep new stories consistent with the stories already published on the page.*
